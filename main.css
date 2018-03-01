@@ -1,0 +1,122 @@
+body {
+  margin: 0 auto;
+  background-color: #002fc7;
+  font-family: 'Raleway', sans-serif;
+  color: white;
+}
+
+.nav, .nav-two {
+  display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav, .scroll {
+  color: white;
+}
+
+.nav {
+  width: 100%;
+  height: 12vh;
+  margin: 0 auto;
+  margin-top: 1%;
+  font-size: 1.4vh;
+  font-weight: bold;
+}
+
+.nav-one {
+  margin-left: 3%;
+}
+
+.nav-two {
+  width: 20vw;
+}
+
+.nav-three {
+  margin-right: 3%;
+}
+
+.stuff {
+  width: 35vw;
+  height: 75vh;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+}
+
+.scroll {
+  position: absolute;
+  bottom: 5vh;
+  font-size: 1.5vh;
+}
+
+.stuff-zero {
+  font-size: 6vh;
+  margin: 1.65vh;
+}
+
+.stuff-one {
+  font-size: 6vh;
+  margin: 1.75vh;
+  font-weight: bold;
+}
+
+.stuff-two {
+  font-size: 1.80vh;
+  margin: 0.5vh;
+  line-height: 1.8;
+}
+
+.stuff-three {
+  font-size: 2vh;
+  margin: 2.2vh;
+}
+
+.button:hover, .button-two {
+  color: white;
+  border-color: white;
+  background-color: transparent;
+}
+
+.button, .button-two:hover {
+  background-color: white;
+  color: #002fc7;
+}
+
+.button, .button-two {
+  border-radius: 25px;
+  border-width: 1px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 9%;
+  width: 9vw;
+}
+
+.button-two {
+  padding: 15%;
+}
+
+.social, .tagline {
+  position: absolute;
+}
+
+.social {
+  bottom: 2%;
+  right: 2%;
+}
+
+.tagline {
+  bottom: 7.75%;
+  left: .25%;
+  transform: rotate(-90deg);
+}
